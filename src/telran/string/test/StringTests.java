@@ -72,6 +72,7 @@ class StringTests {
 		assertEquals(4, testString.indexOf("o"));
 	}
 
+	
 	@Test
 	void testLastIndexOf() {
 		String testString = "HHellooo";
