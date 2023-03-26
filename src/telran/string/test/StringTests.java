@@ -62,6 +62,7 @@ class StringTests {
 		assertFalse(testString.contains("Hi"));
 		assertFalse(testString.contains("elo"));
 		assertFalse(testString.contains("le"));
+		assertFalse(testString.contains("el"));
 	}
 
 	@Test
